@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+
+.maunau
+{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+}
+.mauxanh
+{
+    width: 100%;
+    height: 300px;
+    background-color:darkgreen;
+    
+    
+}
+.maunau ul
+{
+    float: right;
+	list-style: none;
+	padding: 0;
+}
+ .maunau ul li
+{   
+    margin-top:12px;
+    margin-right: 40px;
+	position: relative;
+	display:inline-block;
+}
+
+ .maunau ul li a
+{
+    font-size: 15pt;
+    text-decoration: none;
+    font-weight: bold;
+    color:darkgreen;
+}
+.maunau  ul li:hover
+{ 
+    background-color:mediumseagreen;
+}
+
+.maunau ul li ul
+{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    visibility: hidden;
+}
+ .maunau ul li ul li
+{
+    width: 120px;
+    background-color: wheat;
+    
+}
+ ul li:hover ul
+{
+    visibility: visible;
+}
+
+.maunau img
+{
+    position: absolute;
+    left: 100px;
+    top: -8px;
+}
+.mauxanh p
+{
+    float: right;
+    position: absolute;
+    top: 15px;
+    left:60px
+}
+
+.mauxanh img
+{
+    position: absolute;
+    left: 100px;
+}
+
+.mauxanh h2
+{
+    padding-top: 20px;
+    padding-left: 535px;
+   color: white
+}
+.mauxanh h4
+{
+    padding-top: 20px;
+    padding-left: 535px;
+    padding-bottom: 120px;
+    padding-right: 535px;
+    line-height: 20px;
+    color: white
+}
+.mautrang
+{
+    width: 100%;
+    height: 300px;
+    background-color:wheat;
+    position: relative;
+}
+   .mautrang p
+{
+    float: right;
+    position: absolute;
+    top: 15px;
+    left:60px
+}
+
+.mautrang img
+{
+    position: absolute;
+    right: 70px;
+}
+
+.mautrang h2
+{
+    padding-top: 20px;
+    padding-left: 535px;
+   color:black;
+}
+.mautrang h4
+{
+    padding-top: 20px;
+    padding-left: 535px;
+    padding-bottom: 120px;
+    padding-right: 535px;
+    line-height: 20px;
+    color: black;
+} 
+.mauxanhh
+{
+    width: 100%;
+    height: 500px;
+    background-color:darkgreen;
+    position: relative;
+}    
+
+.mauxanhh_b
+{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.mauxanhh_a
+{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    float:none ;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+.mauxanhh_c
+{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    float:none ;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.mauxanhh_a h4
+{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+    margin: o auto;
+    
+}
+.mauxanhh_a h3
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+    margin: o auto;
+    
+}
+.mauxanhh_b h4
+{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+    margin: o auto;
+    
+}
+.mauxanhh_b h3
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+    margin: o auto;
+    
+}
+.mauxanhh_c h4
+{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+    margin: o auto;
+    
+}
+
+.mauxanhh_c h3
+
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    line-height: 20px;
+    color: black;
+    margin: o auto;
+    
+}
+
+
+
